@@ -1,0 +1,6 @@
+Properties
+<sonar.organization>fis-global</sonar.organization><sonar.host.url>https://sonarcloud.io</sonar.host.url>
+
+
+set SONAR_TOKEN=288bd3054f6f010bac2d22f3ca5fd58600c8b5f8
+mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=fis-global_NikhilSandipWani
